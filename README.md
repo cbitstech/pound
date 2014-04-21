@@ -4,6 +4,8 @@
 
 ###Pound.js API
 
+You can substitute 'p' for 'pound' for the sake of brevity in all pound functions
+
 _To view a list of keys in storage:_
 ```javascript
 pound.list()
@@ -31,5 +33,3 @@ pound.find("cars")
 pound.find("cars", {name: "Camaro"})
 // {object2}
 ```
-####Alternate Syntax
-```p.find()```

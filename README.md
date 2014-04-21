@@ -4,6 +4,12 @@
 
 ###Pound.js API
 
+_To view a list of keys in storage:_
+```javascript
+pound.list()
+//["key1", "key2", "key3"]
+```
+
 _To save or update an object:_
 
 ```pound.save("[key]", [object])```
@@ -17,7 +23,6 @@ _To return a collection or a single object:_
 ```pound.find("[key]", options=[{key:value}])```
 
 example:
-
 ```javascript
 pound.find("cars")
 // [{object1}, {object2}, {object3}]

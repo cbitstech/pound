@@ -31,3 +31,5 @@ pound.find("cars")
 pound.find("cars", {name: "Camaro"})
 // {object2}
 ```
+####Alternate Syntax
+```p.find()```
